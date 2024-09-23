@@ -1,0 +1,109 @@
+/* html sections */
+
+html, 
+body {
+    display: block;
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+
+header { 
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+header, 
+section {
+    background-color: white;
+}
+
+header, 
+.profile-headers {
+    align-items: center;
+    display: flex;
+}
+
+/*typology*/
+
+h1, 
+span {
+    font-size: 13px;
+}
+
+h2, h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h1, 
+span, 
+.bottom h2 {
+    font-weight: 700;
+}
+
+h1, 
+h2, 
+h3, 
+span {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+/* class */
+
+h1, 
+h2, 
+h3, 
+span, 
+.post, 
+.action-icon, 
+.container {
+    margin: 0;
+}
+
+/* header */
+
+.logo {
+    width: 110px;
+    height: 50px;
+}
+
+.profile-pic {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* Main Section */
+
+.profile-headers {
+    padding: 5px 10px 0px;
+}
+
+body,
+.post {
+    width: 375px;
+}
+
+/* React and Comment Section */
+
+.action-icon {
+    width: 23px;
+    height: 25px;
+}
+
+header, 
+.action-icon, 
+.container {
+    padding: 10px;
+}
+
+.action-icon:hover,
+.action-icon:focus {
+    opacity: 50%;
+}
+
+.bottom h2,
+.bottom h3 {
+    padding: 0px 0px 10px 10px;
+}
